@@ -1,0 +1,22 @@
+{
+  "name": "node-message-buffer",
+  "version": "0.0.1",
+  "description": "A simple module that allows to queue up messages and push them to a callback specified intervals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akayami/node-message-buffer.git"
+  },
+  "author": "Tomasz Rakowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akayami/node-message-buffer/issues"
+  },
+  "homepage": "https://github.com/akayami/node-message-buffer",
+  "dependencies": {
+    "merge": "^1.1.3"
+  }
+}
