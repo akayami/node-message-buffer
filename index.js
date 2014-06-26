@@ -29,7 +29,7 @@ module.exports = function(options, callback) {
 		
 		setInterval(function() {
 			var d = new Date();
-			var t = Math.round(d.getTime() / 1000);	
+			var t = Math.round(d.getTime() / this.options.granurality);	
 			for ( var x in this.buffer) {
 				if (x < t - 2) {
 					this.processingBuffer[x] = this.buffer[x];
