@@ -1,5 +1,5 @@
 {
-  "name": "node-message-buffer",
+  "name": "message-buffer",
   "version": "0.0.1",
   "description": "A simple module that allows to queue up messages and push them to a callback specified intervals.",
   "main": "index.js",
